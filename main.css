@@ -1,0 +1,41 @@
+
+.row {margin-top: 0;}
+
+#container1 {display: block; width: 100%; margin: 150px auto;}
+#container2 {display: block; width: 50%; height: 50px; margin: 80px auto 100px auto; text-align: center; }
+#container2 h2 { letter-spacing: 36px; color: #FF6633; font-weight: bold;}
+#container2 h2 span {color: #660099;}
+#serviceblock {width: 100%;}
+#serviceblock > .card {display: inline-block;}
+#serviceblock .card {overflow: hidden;}
+#serviceblock .card > a {box-sizing: border-box;}
+#serviceblock .card > a > .img-cover {width: 100%; height: 170px; padding: 0; overflow: hidden;}
+#serviceblock .card > a > .images {box-sizing: border-box;}
+#serviceblock img {width: 100%; height: 170px; transform: scale(1); transition: all 0.3s;}
+#serviceblock a:hover img {transform: scale(1.1);}
+#serviceblock a > div {position: relative; padding: 40px 20px 0px; height: 170px;}
+#serviceblock a:hover  {background: #aaa8aa; text-decoration: none;}
+#serviceblock a:hover .card-body .card-title {color: #FFFFFF;}
+#serviceblock a:hover .card-body .card-text {color: #FFFFFF;}
+#serviceblock a p {padding: 13px 0 0; font-size: 13px; color: #747774; line-height: 18px; text-align: left;}
+
+#container3 {display: block; width: 100%; height: 1000px; margin: 150px auto;}
+#container4 {display: block; width: 100%; height: 600px; margin: 0 auto 30px auto;}
+#container4 video {width: 100%; height: 100%; box-sizing: border-box;}
+.container h3 {font-size: 26px; color: #222; font-weight: bold; line-height: 28px; text-align: center;}
+.container p {margin: 0 0 0 0; padding: 40px 0 0; font-size: 17px; color: #747774; line-height: 18px; text-align: center;}
+.btn_more {display: inline-block; margin: 50px 0 30px 0; width: 140px; height: 44px; border: 1px solid #042e6f; box-sizing: border-box; font-size: 16px; color: 042e6f; line-height: 44px; text-align: center; letter-spacing: 7px;}
+.btns.center {text-align: center;}
+
+.carousel.slide{
+  height:400px;
+}
+.carousel.slide > .carousel-inner,
+.carousel.slide > .carousel-inner .carousel-item{
+  height: 100%
+}
+.carousel.slide > .carousel-inner .carousel-item > img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
